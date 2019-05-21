@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/iarenzana/urbanobot.png)](https://travis-ci.org/iarenzana/yessir)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiarenzana%2Fyessir.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiarenzana%2Fyessir?ref=badge_shield)
 # yessir
 `yessir` creates a mock API server that will accept anything you throw at it (or reject, see below) for testing purposes.
 
@@ -56,3 +57,7 @@ yessir -p 8877 -s https -c ~/Downloads/example.com.crt -k ~/Downloads/example.co
 ```
 
 The example above will listen for `https` requests on port `8877` and, instead of returning `200`, it will always return a `500` error.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiarenzana%2Fyessir.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiarenzana%2Fyessir?ref=badge_large)
