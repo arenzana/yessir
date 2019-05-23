@@ -8,7 +8,7 @@
 Make sure Go 1.11+ is installed on your machine. You can follow [this guide](https://golang.org/doc/install) to do so. On a Mac, just set your $GOPATH and run `brew install go`.
 
 ```bash
-git clone https://gitlab.com/arenzana/yessir.git
+git clone https://github.com/arenzana/yessir.git
 cd yessir
 make
 ```
