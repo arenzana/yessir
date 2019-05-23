@@ -1,6 +1,6 @@
 package main
 
-import "github.com/iarenzana/yessir/cmd"
+import "github.com/arenzana/yessir/cmd"
 
 func main() {
 	cmd.Execute()
